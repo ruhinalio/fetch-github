@@ -1,64 +1,55 @@
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
+// all body style is here
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
-body{
-    background-color: palevioletred;
+body {
+  background-color: palevioletred;
 }
-.container{
-    display: flex;
-    justify-content: center;
-    margin: 5rem auto;
-    ul{
-       
-        .name{
-            font-size: xx-large; 
-            background-color: #fff;
-            border: none;
-            border-radius: 30px;
-            padding: .5rem 2rem;
-            margin: 1rem 0;
-        }
-.picture{
-    width: 300px;
-    height: 300px;
+// container and etc style is here
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 5rem auto;
+  max-width: 1200px;
+  .picture {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    margin: 0 1rem;
     border-radius: 30px;
     background-color: aqua;
     text-align: center;
-}
-.id{
-    font-size: xx-large; 
-    background-color: #fff;
-    border: none;
-    border-radius: 30px;
-    padding: .5rem 2rem;  
-    margin: 1rem 0;
-}
-.bio{
-    font-size: xx-large; 
-            background-color: #fff;
-            border: none;
-            border-radius: 30px;
-            padding: .5rem 2rem;
-}
-.company{
-    font-size: xx-large; 
-    background-color: #fff;
-    border: none;
-    border-radius: 30px;
-    padding: .5rem 2rem;  
-    margin: 1rem 0;
-}
-.blog{
-    font-size: xx-large; 
-    background-color: #fff;
-    border: none;
-    border-radius: 30px;
-    padding: .5rem 2rem;  
-    margin: 1rem 0;
-}
+  }
+  ul {
+    .name {
+        @extend %font-style;
     }
+
+    .id {
+        @extend %font-style;
+    }
+    .bio {
+        @extend %font-style;
+    }
+    .company {
+        @extend %font-style;
+    }
+    .blog {
+      @extend %font-style;
+    }
+  }
+}
+
+// extends is here
+%font-style{
+    font-size: xx-large;
+      background-color: #fff;
+      border: none;
+      border-radius: 30px;
+      padding: 0.5rem 2rem;
+      margin: 1rem 0;
 }
