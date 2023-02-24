@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: palevioletred;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 5rem auto;
+    ul{
+       
+        .name{
+            font-size: xx-large; 
+            background-color: #fff;
+            border: none;
+            border-radius: 30px;
+            padding: .5rem 2rem;
+            margin: 1rem 0;
+        }
+.picture{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: aqua;
+    text-align: center;
+}
+.id{
+    font-size: xx-large; 
+    background-color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: .5rem 2rem;  
+    margin: 1rem 0;
+}
+.bio{
+    font-size: xx-large; 
+            background-color: #fff;
+            border: none;
+            border-radius: 30px;
+            padding: .5rem 2rem;
+}
+.company{
+    font-size: xx-large; 
+    background-color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: .5rem 2rem;  
+    margin: 1rem 0;
+}
+.blog{
+    font-size: xx-large; 
+    background-color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: .5rem 2rem;  
+    margin: 1rem 0;
+}
+    }
+}

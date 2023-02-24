@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: palevioletred;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 5rem auto;
+}
+.container ul .name {
+  font-size: xx-large;
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 0.5rem 2rem;
+  margin: 1rem 0;
+}
+.container ul .picture {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  background-color: aqua;
+  text-align: center;
+}
+.container ul .id {
+  font-size: xx-large;
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 0.5rem 2rem;
+  margin: 1rem 0;
+}
+.container ul .bio {
+  font-size: xx-large;
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 0.5rem 2rem;
+}
+.container ul .company {
+  font-size: xx-large;
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 0.5rem 2rem;
+  margin: 1rem 0;
+}
+.container ul .blog {
+  font-size: xx-large;
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 0.5rem 2rem;
+  margin: 1rem 0;
+}/*# sourceMappingURL=style.css.map */
